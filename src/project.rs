@@ -1150,7 +1150,7 @@ impl Manifest {
         let edition = Some(String::from(package.edition.as_str()));
 
         Ok(Manifest {
-            crate_name,
+            crate_name: crate_name.to_string(),
             edition,
         })
     }
