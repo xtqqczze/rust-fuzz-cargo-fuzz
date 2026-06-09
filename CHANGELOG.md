@@ -28,6 +28,21 @@ Released YYYY-MM-DD.
 
 --------------------------------------------------------------------------------
 
+## 0.13.2
+
+Released 2026-06-09.
+
+### Added
+
+* Added `--fuzz-engine` flag to `cargo fuzz init`.
+
+### Changed
+
+* Updated some crate dependencies.
+* Process coverage files in parallel.
+
+--------------------------------------------------------------------------------
+
 ## 0.13.1
 
 Released 2025-06-26.
